@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <h1>Színátmenetes csík</h1>
+    
+    <label for="color1">Válassz egy első színt: </label>
+    <input type="color" id="color1" class="color-picker" value="#ff0000">
+
+    <label for="color2">Válassz egy második színt: </label>
+    <input type="color" id="color2" class="color-picker" value="#0000ff">
+    
+    <div id="colorStrip"></div>
+
+    <div id="app"></div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

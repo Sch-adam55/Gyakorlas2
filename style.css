@@ -1,0 +1,14 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+#colorStrip {
+  width: 75%;
+  height: 100px;
+  margin: 20px auto;
+  border: 1px solid #000;
+}
+.color-picker {
+  margin: 10px;
+}
